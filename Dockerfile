@@ -20,5 +20,5 @@ RUN chmod +x /start.sh
 
 VOLUME ["/srv/rep2-data"]
 EXPOSE 80/tcp
-ENTRYPOINT ["/start.sh"]
+ENTRYPOINT ["sh" "/start.sh"]
 
